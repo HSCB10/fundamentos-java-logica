@@ -7,5 +7,7 @@ public class Main {
         VariablesYConstantes.demostrarConvencionesNombres();
         System.out.println();
         VariablesYConstantes.demostrarConstantes();
+        System.out.println();
+        TiposDeDatosPrimitivos.demostrarEneteros();
     }
 }
