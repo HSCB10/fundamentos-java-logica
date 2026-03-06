@@ -1,29 +1,21 @@
 package com.example;
 
 public class VariablesYConstantes {
-
-    public static void demostrarDeclaracionAsignacion(){
-        System.out.println("Nombre y edad");
-        String nombre = "Steven";
-        int edad = 19;
-        System.out.println(nombre);
-        System.out.println(edad);
-
+    public static void demostrarDeclaracionAsignacion() {
+        int edad = 20;
+        double estatura = 1.75;
+        System.out.println("Declaración y Asignación: Edad = " + edad + ", Estatura = " + estatura);
     }
 
-    public static void demostrarConvencionesNombres(){
-        System.out.println("Nombre Y Medida");
-        String nombreCompleto = "Steven Cuesta";
-        float medidaActual =1.75f;
-
-        System.out.println(nombreCompleto);
-        System.out.println(medidaActual);
+    public static void demostrarConvencionesNombres() {
+        int numeroDeEstudiantes = 30; // camelCase
+        String nombreDelCurso = "Programación Java";
+        System.out.println("Convención camelCase: " + numeroDeEstudiantes + ", " + nombreDelCurso);
     }
 
-    public static void demostrarConstantes(){
-        System.out.println("Grupo Etnico");
-        final String raza = "Afro Desendiente";
-        System.out.println(raza);
+    public static void demostrarConstantes() {
+        final double PI = 3.14159; // Uso de final
+        final int MAX_USUARIOS = 100;
+        System.out.println("Constantes (final): PI = " + PI + ", Max Usuarios = " + MAX_USUARIOS);
     }
-
 }
